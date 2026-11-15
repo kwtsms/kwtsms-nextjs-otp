@@ -1,6 +1,6 @@
 /*
 FILE:      src/lib/auth.ts
-CREATED:   2026-11-15 10:50 +03
+CREATED:   2026-11-15 10:26 +03
 TASK:      workqueue job 12
 AUTHOR:    M Alhassoun
 WHAT:      Builds the Better Auth instance: phone-number plugin, DB rate limits, background send.

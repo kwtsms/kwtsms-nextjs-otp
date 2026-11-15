@@ -1,6 +1,6 @@
 /*
 FILE:      src/lib/sms.ts
-CREATED:   2026-11-15 10:40 +03
+CREATED:   2026-11-15 10:25 +03
 TASK:      workqueue job 12
 AUTHOR:    M Alhassoun
 WHAT:      SMS client interface plus the kwtSMS, demo and fake implementations, and deliverOtp().

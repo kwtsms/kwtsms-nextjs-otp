@@ -1,6 +1,6 @@
 /*
 FILE:      src/lib/template.ts
-CREATED:   2026-11-15 10:40 +03
+CREATED:   2026-11-15 10:25 +03
 TASK:      workqueue job 12
 AUTHOR:    M Alhassoun
 WHAT:      OTP SMS text in English (ASCII, 1 part of 160) and Arabic (UCS-2, 1 part of 70).

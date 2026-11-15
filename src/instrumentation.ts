@@ -1,6 +1,6 @@
 /*
 FILE:      src/instrumentation.ts
-CREATED:   2026-11-15 10:50 +03
+CREATED:   2026-11-15 10:26 +03
 TASK:      workqueue job 12
 AUTHOR:    M Alhassoun
 WHAT:      Next.js startup hook: validates config (live mode refuses weak settings) and creates the tables.

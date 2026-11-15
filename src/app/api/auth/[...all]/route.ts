@@ -1,6 +1,6 @@
 /*
 FILE:      src/app/api/auth/[...all]/route.ts
-CREATED:   2026-11-15 10:50 +03
+CREATED:   2026-11-15 10:25 +03
 TASK:      workqueue job 12
 AUTHOR:    M Alhassoun
 WHAT:      Better Auth HTTP handler (Next.js App Router).

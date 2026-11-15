@@ -1,6 +1,6 @@
 /*
 FILE:      src/lib/db.ts
-CREATED:   2026-11-15 10:50 +03
+CREATED:   2026-11-15 10:26 +03
 TASK:      workqueue job 12
 AUTHOR:    M Alhassoun
 WHAT:      Opens the database: Postgres when DATABASE_URL is postgres://, otherwise a local SQLite file via node:sqlite.
@@ -23,7 +23,7 @@ export function createDatabase(cfg: AppConfig): Pool | DatabaseSync {
   return new sqlite.DatabaseSync(file);
 }
 
-// 2026-11-15 10:55 +03: one shared handle for the app and the startup migration (globalThis survives separate bundles). workqueue job 12.
+// 2026-11-15 10:26 +03: one shared handle for the app and the startup migration (globalThis survives separate bundles). workqueue job 12.
 const g = globalThis as unknown as { __kwtDb?: ReturnType<typeof createDatabase> };
 export function getDatabase(cfg: AppConfig): ReturnType<typeof createDatabase> {
   return (g.__kwtDb ??= createDatabase(cfg));
