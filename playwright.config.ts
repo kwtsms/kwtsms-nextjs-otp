@@ -1,6 +1,6 @@
 /*
 FILE:      playwright.config.ts
-CREATED:   2026-11-15 11:35 +03
+CREATED:   2026-11-15 10:31 +03
 TASK:      workqueue job 12
 AUTHOR:    M Alhassoun
 WHAT:      Playwright E2E config: two production servers, one in demo mode (:3100) and one with the injected fake SMS client (:3101).

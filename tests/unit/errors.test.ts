@@ -1,6 +1,6 @@
 /*
 FILE:      tests/unit/errors.test.ts
-CREATED:   2026-11-15 11:15 +03
+CREATED:   2026-11-15 10:28 +03
 TASK:      workqueue job 12
 AUTHOR:    M Alhassoun
 WHAT:      Unit tests: ERR code classes and log lines.

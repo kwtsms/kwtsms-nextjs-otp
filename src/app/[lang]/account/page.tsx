@@ -1,6 +1,6 @@
 /*
 FILE:      src/app/[lang]/account/page.tsx
-CREATED:   2026-11-15 11:00 +03
+CREATED:   2026-11-15 10:26 +03
 TASK:      workqueue job 12
 AUTHOR:    M Alhassoun
 WHAT:      Screen 3: signed-in page with the masked number and sign out.

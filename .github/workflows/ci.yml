@@ -1,4 +1,4 @@
-# 2026-11-15 11:55 +03: CI per plan v2 step 7: lint, types, unit, build, E2E (fake SMS client, no network), NEXT_PUBLIC_KWTSMS grep. workqueue job 12
+# 2026-11-15 10:32 +03: CI per plan v2 step 7: lint, types, unit, build, E2E (fake SMS client, no network), NEXT_PUBLIC_KWTSMS grep. workqueue job 12
 name: CI
 on:
   push:

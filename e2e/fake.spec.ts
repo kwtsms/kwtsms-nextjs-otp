@@ -1,6 +1,6 @@
 /*
 FILE:      e2e/fake.spec.ts
-CREATED:   2026-11-15 11:35 +03
+CREATED:   2026-11-15 10:31 +03
 TASK:      workqueue job 12
 AUTHOR:    M Alhassoun
 WHAT:      E2E with the injected fake SMS client: the code is read from the fake outbox; limits, cooldown, templates, raw API guard.

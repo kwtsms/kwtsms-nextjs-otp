@@ -1,6 +1,6 @@
 /*
 FILE:      scripts/smoke-test.mjs
-CREATED:   2026-11-15 11:50 +03
+CREATED:   2026-11-15 10:32 +03
 TASK:      workqueue job 12
 AUTHOR:    M Alhassoun
 WHAT:      Manual smoke test: one test=1 send through the kwtsms client to KWTSMS_TEST_NUMBER.

@@ -1,6 +1,6 @@
 /*
 FILE:      src/app/[lang]/page.tsx
-CREATED:   2026-11-15 11:00 +03
+CREATED:   2026-11-15 10:26 +03
 TASK:      workqueue job 12
 AUTHOR:    M Alhassoun
 WHAT:      Screens 1 and 2: enter mobile number, then enter the code.

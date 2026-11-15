@@ -1,6 +1,6 @@
 /*
 FILE:      eslint.config.mjs
-CREATED:   2026-11-15 11:08 +03
+CREATED:   2026-11-15 10:27 +03
 TASK:      workqueue job 12
 AUTHOR:    M Alhassoun
 WHAT:      ESLint flat config using eslint-config-next (core-web-vitals + typescript).

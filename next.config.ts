@@ -1,6 +1,6 @@
 /*
 FILE:      next.config.ts
-CREATED:   2026-11-15 11:08 +03
+CREATED:   2026-11-15 10:26 +03
 TASK:      workqueue job 12
 AUTHOR:    M Alhassoun
 WHAT:      Next.js config: redirect / to /en, keep pg out of the bundle.

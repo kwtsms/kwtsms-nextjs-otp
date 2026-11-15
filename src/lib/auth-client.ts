@@ -1,6 +1,6 @@
 /*
 FILE:      src/lib/auth-client.ts
-CREATED:   2026-11-15 11:00 +03
+CREATED:   2026-11-15 10:26 +03
 TASK:      workqueue job 12
 AUTHOR:    M Alhassoun
 WHAT:      Better Auth browser client with the phone-number plugin.

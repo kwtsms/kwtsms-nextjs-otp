@@ -1,6 +1,6 @@
 /*
 FILE:      tests/unit/template.test.ts
-CREATED:   2026-11-15 11:15 +03
+CREATED:   2026-11-15 10:33 +03
 TASK:      workqueue job 12
 AUTHOR:    M Alhassoun
 WHAT:      Unit tests: OTP message text stays one SMS part in English and Arabic.

@@ -1,6 +1,6 @@
 /*
 FILE:      e2e/demo.spec.ts
-CREATED:   2026-11-15 11:35 +03
+CREATED:   2026-11-15 10:31 +03
 TASK:      workqueue job 12
 AUTHOR:    M Alhassoun
 WHAT:      E2E in demo mode: full login in English and Arabic, errors, RTL, screenshots (desktop and mobile).

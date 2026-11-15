@@ -1,6 +1,6 @@
 /*
 FILE:      src/lib/i18n.ts
-CREATED:   2026-11-15 11:00 +03
+CREATED:   2026-11-15 10:32 +03
 TASK:      workqueue job 12
 AUTHOR:    M Alhassoun
 WHAT:      English and Arabic UI strings (20-line dictionary) and the direction helper.

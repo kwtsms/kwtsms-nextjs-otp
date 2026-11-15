@@ -1,6 +1,6 @@
 /*
 FILE:      tests/unit/contract.test.ts
-CREATED:   2026-11-15 11:20 +03
+CREATED:   2026-11-15 10:32 +03
 TASK:      workqueue job 12
 AUTHOR:    M Alhassoun
 WHAT:      Contract test against the real Better Auth phone-number plugin (in-memory SQLite, fake SMS client).
