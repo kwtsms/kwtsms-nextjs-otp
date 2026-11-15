@@ -1,0 +1,20 @@
+# 2026-11-15 11:08 +03: ignore list per Boss spec, workqueue job 12
+node_modules
+.next
+out
+next-env.d.ts
+*.tsbuildinfo
+.env*
+!.env.example
+*.db
+*.db-journal
+*.log
+.claude/
+CLAUDE.md
+docs/
+.playwright-cli/
+test-results/
+playwright-report/
+data/
+.e2e/
+.vercel
