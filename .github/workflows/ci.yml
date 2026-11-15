@@ -1,0 +1,35 @@
+# 2026-11-15 11:55 +03: CI per plan v2 step 7: lint, types, unit, build, E2E (fake SMS client, no network), NEXT_PUBLIC_KWTSMS grep. workqueue job 12
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Credentials must never be exposed to the browser
+        run: |
+          if grep -rn "NEXT_PUBLIC_KWTSMS" --include='*' --exclude-dir=node_modules --exclude-dir=.next --exclude-dir=.git --exclude-dir=.github . ; then
+            echo "NEXT_PUBLIC_KWTSMS found: kwtSMS settings must never be public env vars"; exit 1
+          fi
+      - run: npm run lint
+      - run: npx tsc --noEmit
+      - run: npm test
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - run: npx playwright test
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: e2e-screenshots
+          path: test-results/shots
+          if-no-files-found: ignore

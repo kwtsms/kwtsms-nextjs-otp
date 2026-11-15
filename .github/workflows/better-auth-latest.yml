@@ -1,0 +1,28 @@
+# 2026-11-15 11:55 +03: weekly run against the latest Better Auth (plan v2 step 0): an upstream change breaks this job, not users. workqueue job 12
+# The contract test pins 1.7.25 on purpose and is skipped here; the other tests and the E2E must still pass.
+name: Better Auth latest
+on:
+  schedule:
+    - cron: "17 5 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  latest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm install --no-save better-auth@latest
+      - run: npm ls better-auth
+      - run: npx tsc --noEmit
+      - run: npx vitest run
+        env:
+          CONTRACT_PIN: "off"
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - run: npx playwright test
