@@ -43,7 +43,7 @@ Open http://localhost:3000, enter any Kuwait-style number such as `50000000`. Th
 
 ## Go live
 
-1. Create a kwtSMS account and enable the API (Account > API). Note the API username and password (these are not your login).
+1. Create a kwtSMS account and open **API Integration > API Information** in your account. Note the API username and password (these are not your login).
 2. Put them in `.env.local`: `KWTSMS_USERNAME`, `KWTSMS_PASSWORD`. The app is now in **test mode**: real API calls with `test=1`. Messages are queued, not delivered, and credits are held until you delete them from the Sending Queue.
 3. Run the manual check: set `KWTSMS_TEST_NUMBER` to your own number (`965XXXXXXXX`) and run `npm run smoke`. It sends one `test=1` message and prints the API answer.
 4. Sender ID: `KWT-SMS` is the shared test Sender ID and must not be used for real traffic. Register your own private Sender ID in your kwtSMS account; approval takes time, so start early. Set it as `KWTSMS_SENDER_ID`.
