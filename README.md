@@ -10,6 +10,8 @@
 
 SMS one-time-code (OTP) sign in for Next.js, through kwtSMS, the Kuwaiti SMS gateway. Next.js App Router, TypeScript, [Better Auth](https://better-auth.com) phone-number plugin, English and Arabic with RTL. See the whole flow in 2 minutes with no account; go live with a few environment variables.
 
+All kwtSMS integrations: [kwtsms.com/integrations](https://www.kwtsms.com/integrations/)
+
 ## About kwtSMS
 
 kwtSMS is a Kuwaiti SMS gateway trusted by top businesses to deliver messages anywhere in the world, with private Sender ID, free API testing, non-expiring credits, and competitive flat-rate pricing. Secure, simple to integrate, built to last. Open a free account in under 1 minute, no paperwork or payment required. [Click here to get started](https://www.kwtsms.com/cportal/signup/)
