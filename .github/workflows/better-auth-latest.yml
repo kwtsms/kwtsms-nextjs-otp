@@ -18,7 +18,8 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm install --no-save better-auth@latest
-      - run: npm ls better-auth
+      # 2026-11-25 10:41 +03: npm ls fails by design here (installed latest != pinned 1.7.25, ELSPROBLEMS); print the version instead. Repo sweep.
+      - run: node -p "'better-auth ' + require('./node_modules/better-auth/package.json').version"
       - run: npx tsc --noEmit
       - run: npx vitest run
         env:
